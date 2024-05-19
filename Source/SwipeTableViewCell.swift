@@ -20,7 +20,7 @@ open class SwipeTableViewCell: UITableViewCell {
     /// The object that acts as the delegate of the `SwipeTableViewCell`.
     public weak var delegate: SwipeTableViewCellDelegate?
     
-    var state = SwipeState.center
+    public var state = SwipeState.center
     public var swipeAction: HandlerBool?
     var actionsView: SwipeActionsView?
     var scrollView: UIScrollView? {
